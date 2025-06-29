@@ -1,7 +1,7 @@
 {
   "name": "my-v0-project",
   "version": "0.1.0",
-  "homepage": "https://TerminatingCoder101.github.io/github-pages",
+  "homepage": "https://TerminatingCoder101.github.io/AvantDev-Technologies",
   "private": true,
   "scripts": {
     "build": "next build",
@@ -9,7 +9,7 @@
     "lint": "next lint",
     "start": "next start",
     "predeploy": "npm run build",
-    "deploy": "gh-pages d"
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
