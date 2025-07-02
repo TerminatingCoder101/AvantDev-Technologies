@@ -12,8 +12,8 @@ const nextConfig = {
     unoptimized: true,
   },
   output: 'export',
-  basePath: isProd ? '/AvantDev-Technologies' : '',
-  assetPrefix: isProd ? '/AvantDev-Technologies' : ''
+  basePath: '/AvantDev-Technologies',
+  assetPrefix: '/AvantDev-Technologies/'
 }
 
 module.exports = nextConfig;
