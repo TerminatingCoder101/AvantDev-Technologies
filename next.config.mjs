@@ -1,7 +1,5 @@
 const isProd = process.env.NODE_ENV === 'production';
 
-const repoName = 'AvantDev-Technologies'; // Your repo name
-
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   eslint: {
@@ -14,8 +12,8 @@ const nextConfig = {
     unoptimized: true,
   },
   output: 'export',
-  basePath: isProd ? `/${repoName}` : '',
-  assetPrefix: isProd ? `/${repoName}/` : '',
+  basePath: isProd ? '/AvantDev-Technologies' : '',
+  assetPrefix: isProd ? '/AvantDev-Technologies/' : '',
 }
 
 export default nextConfig
