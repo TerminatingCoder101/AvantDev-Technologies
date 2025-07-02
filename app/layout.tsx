@@ -4,7 +4,7 @@ import './globals.css'
 export const metadata: Metadata = {
   title: "AvantDev Technologies",
   icons: {
-  icon: "/AvantDev-Technologies/public/favicon.ico",
+  icon: "/public/favicon.ico",
 },
 }
 
