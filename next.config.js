@@ -1,5 +1,3 @@
-const isProd = process.env.NODE_ENV === 'production';
-
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   eslint: {
@@ -9,11 +7,8 @@ const nextConfig = {
     ignoreBuildErrors: true,
   },
   images: {
-    unoptimized: true,
-  },
-  output: 'export',
-  basePath: '/AvantDev-Technologies',
-  assetPrefix: '/AvantDev-Technologies/'
-}
+    unoptimized: true // Optional: keep if you're not using Vercel Image Optimization
+  }
+};
 
 module.exports = nextConfig;

@@ -31,7 +31,7 @@ export function Navbar() {
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-2">
             <Image
-              src="/AvantDev-Technologies/Logo.png"
+              src="/Logo.png"
               alt="AvantDev Logo"
               width={32}
               height={32}
