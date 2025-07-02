@@ -1,13 +1,14 @@
 {
   "name": "my-v0-project",
   "version": "0.1.0",
-  "homepage": "http://TerminatingCoder101.github.io/AvantDev-Technologies",
+  "homepage": "http://TerminatingCoder101.github.io/AvantDev-Technologies/",
   "private": true,
 "scripts": {
   "dev": "next dev",
   "build": "next build",
   "predeploy": "npm run build",
   "deploy": "gh-pages -d out"
+  
 },
 
 
