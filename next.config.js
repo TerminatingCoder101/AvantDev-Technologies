@@ -13,7 +13,7 @@ const nextConfig = {
   },
   output: 'export',
   basePath: isProd ? '/AvantDev-Technologies' : '',
-  assetPrefix: isProd ? '/AvantDev-Technologies/' : '',
+  assetPrefix: isProd ? '/AvantDev-Technologies' : ''
 }
 
-export default nextConfig
+module.exports = nextConfig;
