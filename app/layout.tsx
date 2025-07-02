@@ -4,7 +4,7 @@ import './globals.css'
 export const metadata: Metadata = {
   title: "AvantDev Technologies",
   icons: {
-  icon: "/public/favicon.ico",
+  icon: "/favicon.ico",
 },
 }
 
@@ -15,9 +15,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head>
-        <link rel="icon" href="/public/favicon.ico" />
-      </head>
       <body>{children}</body>
     </html>
   );
