@@ -24,12 +24,6 @@ export function Footer() {
               Creating exceptional websites that help businesses thrive online. Professional development at unbeatable
               prices.
             </p>
-            <div className="space-y-2">
-              <div className="flex items-center space-x-3">
-                <Phone className="h-5 w-5 text-blue-400" />
-                <span className="text-slate-300">+1 (714)-406-4102</span>
-              </div>
-            </div>
           </div>
 
           {/* Quick Links */}
